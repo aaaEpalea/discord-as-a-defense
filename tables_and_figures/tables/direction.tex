@@ -1,0 +1,30 @@
+\small
+\begin{tabular}{llcccc}
+\toprule
+Setting & Model & $w$ & $v$ & both-ind. & both-coord. \\
+\midrule
+\multirow{5}{*}{digits-word} & V-only & 96.1 & 68.1 & 68.1 & 68.1 \\
+ & PoE & 80.5 & 87.7 & 71.5 & 71.1 \\
+ & SheafAlign & 71.2 & 100.0 & 71.2 & 71.2 \\
+ & DGSA-hard(clean95) & 96.1 & 72.3 & 70.2 & 70.2 \\
+ & DGSA-soft & 97.6 & 69.4 & 69.4 & 69.4 \\
+\midrule
+\multirow{5}{*}{mnist-views (2k)} & V-only & 89.7 & 63.3 & 63.3 & 63.3 \\
+ & PoE & 86.3 & 65.1 & 63.4 & 63.1 \\
+ & SheafAlign & 86.3 & 63.8 & 62.0 & 61.9 \\
+ & DGSA-hard(clean95) & 86.4 & 63.2 & 61.9 & 61.8 \\
+ & DGSA-soft & 88.2 & 62.0 & 62.0 & 62.0 \\
+\midrule
+\multirow{5}{*}{halves (2k)} & V-only & 83.9 & 59.2 & 59.2 & 59.2 \\
+ & PoE & 68.2 & 73.7 & 61.8 & 61.1 \\
+ & SheafAlign & 67.2 & 79.9 & 62.1 & 61.5 \\
+ & DGSA-hard(clean95) & 76.7 & 70.2 & 61.6 & 61.2 \\
+ & DGSA-soft & 84.9 & 60.0 & 60.0 & 59.9 \\
+\midrule
+\multirow{5}{*}{mnist-views (full)} & V-only & 97.1 & 67.9 & 67.9 & 67.9 \\
+ & PoE & 95.6 & 68.9 & 68.3 & 68.1 \\
+ & SheafAlign & 96.0 & 67.5 & 67.3 & 67.2 \\
+ & DGSA-hard(clean95) & 96.0 & 67.5 & 67.3 & 67.2 \\
+ & DGSA-soft & 96.3 & 67.4 & 67.4 & 67.3 \\
+\bottomrule
+\end{tabular}

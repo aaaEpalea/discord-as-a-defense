@@ -1,0 +1,13 @@
+variant,seed,clean_acc,corrupted_acc
+full (task+align+recon),0,1.000000,0.000000
+full (task+align+recon),1,1.000000,0.000000
+full (task+align+recon),2,1.000000,0.000000
+task+align only (no recon),0,1.000000,0.000000
+task+align only (no recon),1,1.000000,0.000000
+task+align only (no recon),2,1.000000,0.000000
+task+recon only (no align),0,1.000000,0.012121
+task+recon only (no align),1,1.000000,0.029851
+task+recon only (no align),2,1.000000,0.000000
+"task only (no align, no recon)",0,1.000000,0.527273
+"task only (no align, no recon)",1,0.997537,0.514925
+"task only (no align, no recon)",2,1.000000,0.570552
