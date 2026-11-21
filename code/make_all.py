@@ -137,7 +137,7 @@ for j,(ds,sc,lab) in enumerate(SET[:3]):
         a.set_title(f"{lab}: {dr} corrupted",fontsize=9); a.grid(alpha=.3); a.set_xlabel("coverage (fraction accepted)")
         if j==0: a.set_ylabel("accuracy on accepted (%)")
 ax[0,0].legend(fontsize=7); plt.tight_layout(); plt.savefig(f"{OF}/figD_riskcoverage.png",dpi=200); plt.close()
-# ---------------- loss-term ablation (Table: ablation, Fig. 4); raw data from ablation_loss_terms.py
+# ---------------- loss-term ablation (ablation table and figure); raw data from ablation_loss_terms.py
 AB=f"{R3}/ablation_loss_terms.csv"
 if os.path.exists(AB):
     ab=pd.read_csv(AB)

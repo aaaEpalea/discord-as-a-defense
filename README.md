@@ -1,6 +1,6 @@
 # Discord as a Defense
 
-Code, raw results and paper source for **"Discord as a Defense: A Red-Team Evaluation of a Blind Spot in Multimodal Fusion for Trustworthy Agentic Systems"**
+Code, raw results and figures for **"Discord as a Defense: A Red-Team Evaluation of a Blind Spot in Multimodal Fusion for Trustworthy Agentic Systems"**
 (TRUSTMORE 2026, co-located with IEEE BigData 2026).
 
 **Author:** Aliyu Agboola Alege
@@ -20,7 +20,7 @@ Code, raw results and paper source for **"Discord as a Defense: A Red-Team Evalu
     python ablation_loss_terms.py                                          # loss-term ablation (writes ../results/ablation_loss_terms.csv)
     python make_all.py                                                     # regenerate every table and figure in ../tables_and_figures/
 
-`make_all.py` builds all tables (including the loss-term ablation table) and figures (including Fig. 4) from the CSVs in `results/`. `OUT_DIR` overrides where they are written. `figB_detection.png` is generated but not used in the paper.
+`make_all.py` builds all tables (including the loss-term ablation table) and figures (including the loss-term ablation figure, `fig4_loss_ablation.png`) from the CSVs in `results/`. `OUT_DIR` overrides where they are written. `figB_detection.png` is generated but not used in the paper.
 
 MNIST is downloaded on first use (GitHub mirror); set `MNIST_PKL` to use a local copy. `RESULTS_DIR` overrides the output folder of the experiment scripts.
 
